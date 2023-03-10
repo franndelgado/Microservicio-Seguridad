@@ -1,6 +1,5 @@
 package com.example.security.service;
 
-import com.example.security.ErrorResponse.ErrorResponse;
 import com.example.security.exception.OAuthServiceException;
 import com.example.security.models.UserDto;
 import com.fasterxml.jackson.databind.ObjectMapper;

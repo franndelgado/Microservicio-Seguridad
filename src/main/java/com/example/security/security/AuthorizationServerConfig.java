@@ -28,7 +28,7 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
     @Autowired
     private AuthenticationManager authenticationManager;
 
-    //@Value("${token.sign.key}")
+
     @Value("${config.security.oauth.jwt.key}")
     private String tokenSignKey;
 
